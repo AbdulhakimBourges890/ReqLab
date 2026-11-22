@@ -1,92 +1,123 @@
 # ReqLab
 
-**A lightweight REST API testing tool built with Flutter.**
+<p align="center">
+  <strong>A Simple and Powerful REST API Testing Tool</strong>
+  <br />
+  Built with Flutter
+</p>
 
-ReqLab lets you send HTTP requests, inspect server responses, and keep track of your API testing history — all from a simple mobile interface.
+<p align="center">
+  <a href="https://github.com/AbdulhakimBourges890/ReqLab">GitHub Repository</a>
+  ·
+  <a href="https://github.com/AbdulhakimBourges890/ReqLab/issues">Report a Bug</a>
+  ·
+  <a href="https://github.com/AbdulhakimBourges890/ReqLab/issues">Request a Feature</a>
+</p>
+
+---
+
+## About ReqLab
+
+**ReqLab** is a lightweight REST API testing application built with Flutter. It provides a straightforward environment for sending HTTP requests, inspecting server responses, and managing request history.
+
+Designed with simplicity and usability in mind, ReqLab helps developers test and interact with APIs directly from their devices.
 
 ## Features
 
-- **HTTP Methods:** Send `GET`, `POST`, `PUT`, `PATCH`, and `DELETE` requests.
-- **Request Configuration:** Add custom query parameters, headers, and request bodies.
-- **Response Inspection:** View response status, response time, body size, headers, and response body.
-- **JSON Formatting:** Automatically format JSON responses for easier reading.
-- **Request History:** Automatically save requests, including failed requests, and review their details later.
-- **History Management:** Delete individual requests or clear the entire history.
-- **Appearance Settings:** Choose light mode, dark mode, or system theme.
-- **Accent Colors:** Customize the application's accent color.
-- **Error Handling:** Get clear error messages for connection problems, timeouts, and invalid URLs.
+- **HTTP Requests** — Send requests using supported HTTP methods.
+- **Custom Headers** — Configure request headers.
+- **Request Body** — Send data with requests.
+- **Response Viewer** — Inspect server responses and response details.
+- **Request History** — Access previously executed requests.
+- **Local Storage** — Keep application settings and request history locally.
+- **Theme Customization** — Switch between light, dark, and system themes.
+- **Custom Appearance** — Personalize the application's accent color.
+- **Error Handling** — Receive informative feedback when requests fail.
 
-## Tech Stack
+## Screenshots
 
-- **Flutter** — Cross-platform application framework.
-- **Dart** — Programming language.
-- **Material UI** — User interface components.
-- **HTTP** — Network requests.
-- **Shared Preferences** — Local settings and request history storage.
-- **Font Awesome** — Additional icons.
+<!-- Add application screenshots here -->
+
+Screenshots will be added soon.
+
+## Technology Stack
+
+| Technology | Purpose |
+|---|---|
+| Flutter | Cross-platform application framework |
+| Dart | Programming language |
+| Material UI | User interface |
+| HTTP | Network communication |
+| Shared Preferences | Local data persistence |
+| Font Awesome | Icons |
 
 ## Getting Started
 
-### Prerequisites
+### Requirements
 
-Make sure you have installed:
+Before running ReqLab locally, make sure you have:
 
-- [Flutter SDK](https://docs.flutter.dev/get-started/install)
-- [Dart SDK](https://dart.dev/get-dart)
-- Android Studio or another supported IDE.
+- Flutter SDK installed.
+- Dart SDK installed.
+- Android Studio or another compatible development environment.
 
 ### Installation
 
-1. Clone the repository:
+**1. Clone the repository**
 
-   ```bash
-   git clone https://github.com/AbdulhakimBourges890/ReqLab.git
-   ```
+```bash
+git clone https://github.com/AbdulhakimBourges890/ReqLab.git
+```
 
-2. Navigate to the project directory:
+**2. Navigate to the project directory**
 
-   ```bash
-   cd ReqLab
-   ```
+```bash
+cd ReqLab
+```
 
-3. Install dependencies:
+**3. Install dependencies**
 
-   ```bash
-   flutter pub get
-   ```
+```bash
+flutter pub get
+```
 
-4. Run the application:
+**4. Run the application**
 
-   ```bash
-   flutter run
-   ```
+```bash
+flutter run
+```
 
 ## Project Structure
 
 ```text
 ReqLab/
-├── android/             # Android platform configuration
+├── android/
 ├── assets/
-│   └── images/          # Application images and branding
+│   └── images/
 ├── lib/
-│   ├── screens/         # Application screens
-│   ├── services/        # API, history, and settings services
-│   ├── theme/           # Application theme
-│   ├── widgets/         # Reusable UI components
-│   └── main.dart        # Application entry point
-├── test/                # Flutter tests
-├── pubspec.yaml         # Dependencies and project configuration
+│   ├── screens/
+│   ├── services/
+│   ├── theme/
+│   ├── widgets/
+│   └── main.dart
+├── test/
+├── pubspec.yaml
 └── README.md
 ```
 
 ## Contributing
 
-Contributions, suggestions, and bug reports are welcome.
+Contributions are welcome!
+
+If you have ideas, suggestions, or improvements, feel free to contribute.
 
 1. Fork the repository.
 2. Create a new branch.
 3. Make your changes.
-4. Submit a pull request.
+4. Commit your changes.
+5. Open a Pull Request.
+
+For bugs or feature requests, please use the [GitHub Issues](https://github.com/AbdulhakimBourges890/ReqLab/issues) section.
 
 ## Developer
 
@@ -94,6 +125,14 @@ Contributions, suggestions, and bug reports are welcome.
 
 GitHub: [@AbdulhakimBourges890](https://github.com/AbdulhakimBourges890)
 
+## License
+
+Please check the repository for licensing information.
+
 ---
 
-*Built with Flutter.*
+<p align="center">
+  <strong>ReqLab</strong>
+  <br />
+  Built with Flutter. Made for developers.
+</p>
